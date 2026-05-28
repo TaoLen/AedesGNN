@@ -3,12 +3,39 @@
 ![AedesGNN workflow](assets/instance-wise-architecture.png)
 
 ## Overview
-The codebase keeps the supervised multitask molecular learning pipeline and the MPNN encoder built around:
+The proposed framework combines graph neural networks, Transformer-inspired attention, contrastive representation learning, predictive uncertainty estimation, and prospective experimental validation to prioritize novel larvicidal candidates.
 
-- Jumping Knowledge aggregation
-- Virtual nodes for graph-level information exchange
-- Residual message-passing updates
-- Optional auxiliary contrastive losses during supervised training
+#Main Architectural Components
+
+The framework integrates:
+
+atom-bond attentive message passing;
+FastFormer-inspired bond-attention module;
+structurally biased multi-head attention readout;
+random-walk positional encoding;
+Laplacian-filtered positional information;
+centrality-based structural encoding;
+virtual nodes;
+skip connections;
+jumping knowledge aggregation;
+task-specific prediction layers.
+
+#Contrastive Learning Strategy
+
+Two complementary contrastive-learning levels are employed:
+
+Whole-Molecule Contrastive Learning
+
+Two augmented graph views are generated for each compound using:
+
+random atom masking;
+random bond deletion.
+
+Augmented views from the same molecule are treated as positive pairs. Structurally related negative pairs are downweighted using ECFP4-based Tanimoto similarity.
+
+#Fragment-Level Contrastive Learning
+
+Molecular fragments are generated using the BRICS procedure. Atom embeddings belonging to the same fragment are aggregated to produce fragment-level representations, encouraging the model to learn local substructural patterns relevant to larvicidal activity.
 
 
 ## Environment Installation
