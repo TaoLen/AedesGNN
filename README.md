@@ -1,4 +1,4 @@
-# Holistic GNNs: MPNN
+# Instance-Wise Contrastive Graph Neural Network for Discovery of Novel Aedes aegypti Larvicidal Compounds
 This repository is now centered on a single graph backbone: `MPNN`.
 
 ## Overview
@@ -9,7 +9,6 @@ The codebase keeps the supervised multitask molecular learning pipeline and the 
 - Residual message-passing updates
 - Optional auxiliary contrastive losses during supervised training
 
-Everything related to alternative backbones was removed so the repository reflects a single maintained architecture and a smaller dependency surface.
 
 ## Environment Installation
 Run the following commands in the terminal:
@@ -25,6 +24,3 @@ pip install -r requirements.txt
 Faculty of Pharmacy
 Federal University of Goias (UFG)
 Brazil
-
-## Exclusive Use
-For exclusive use by LCi and its collaborators.
