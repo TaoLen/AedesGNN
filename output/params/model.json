@@ -1,0 +1,29 @@
+{
+    "heads_node": 6,
+    "heads_edge": 4,
+    "num_agg_layers": 2,
+    "agg_hidden_dim_1": 120,
+    "agg_hidden_dim_2": 96,
+    "num_lin_layers": 2,
+    "lin_hidden_dim_1": 353,
+    "lin_hidden_dim_2": 225,
+    "projection_dim": 256,
+    "activation": "leakyrelu",
+    "dropout_rate": 0.10474444342286889,
+    "optimizer": "RAdam",
+    "weight_decay": 2.7287887878082164e-05,
+    "contrastive_config": {
+        "enabled": true,
+        "beta_aug": 0.0,
+        "alpha_global": 0.0,
+        "alpha_local": 0.0,
+        "global_temperature": 0.1,
+        "local_temperature": 0.1,
+        "tanimoto_lambda": 0.5,
+        "projection_dim": 128,
+        "global_hidden_dim": 256,
+        "local_hidden_dim": 256,
+        "fp_radius": 2,
+        "fp_size": 2048
+    }
+}
