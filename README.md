@@ -33,7 +33,7 @@ random bond deletion.
 
 Augmented views from the same molecule are treated as positive pairs. Structurally related negative pairs are downweighted using ECFP4-based Tanimoto similarity.
 
-#Fragment-Level Contrastive Learning
+# Fragment-Level Contrastive Learning
 
 Molecular fragments are generated using the BRICS procedure. Atom embeddings belonging to the same fragment are aggregated to produce fragment-level representations, encouraging the model to learn local substructural patterns relevant to larvicidal activity.
 
