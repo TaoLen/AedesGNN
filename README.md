@@ -1,4 +1,4 @@
-# Instance-Wise Contrastive Graph Neural Network for Discovery of Novel Aedes aegypti Larvicidal Compounds
+# Instance-Wise Contrastive Graph Neural Network for Discovery of Novel *Aedes aegypti* Larvicidal Compounds
 
 ![AedesGNN workflow](assets/instance-wise-architecture.png)
 
