@@ -1,5 +1,6 @@
 # Instance-Wise Contrastive Graph Neural Network for Discovery of Novel Aedes aegypti Larvicidal Compounds
-This repository is now centered on a single graph backbone: `MPNN`.
+
+![AedesGNN workflow](assets/instance-wise-architecture.png)
 
 ## Overview
 The codebase keeps the supervised multitask molecular learning pipeline and the MPNN encoder built around:
