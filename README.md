@@ -5,7 +5,7 @@
 ## Overview
 The proposed framework combines graph neural networks, Transformer-inspired attention, contrastive representation learning, predictive uncertainty estimation, and prospective experimental validation to prioritize novel larvicidal candidates.
 
-#Main Architectural Components
+# Main Architectural Components
 
 The framework integrates:
 
@@ -20,7 +20,7 @@ skip connections;
 jumping knowledge aggregation;
 task-specific prediction layers.
 
-#Contrastive Learning Strategy
+# Contrastive Learning Strategy
 
 Two complementary contrastive-learning levels are employed:
 
